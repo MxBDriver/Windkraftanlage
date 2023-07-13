@@ -4,14 +4,14 @@ Hier wurde ein einfaches Programm geschrieben, um eine rotierende Windkraftanlag
 Im Release Ordner ist das fertige Python Programm als ausführbare EXE-Datei.
 * windkraftanlage.exe
 
-Der Code wurde überarbeitet, da Umlaute in den Kommentaren zu finden waren und diese Probleme beim Umwandeln gemacht haben.
-Zudem wurde ein passendes Fenstericon wurde eingepflegt.
+Der Code wurde überarbeitet, da Umlaute in den Kommentaren zu finden waren und dies zu Problemen beim Umwandeln mit den Codec geführt hat.
+Zudem wurde ein passendes Fenstericon eingepflegt.
 
 Aktuell wird ein Konsolen Fenster mit geöffnet, um die Geschwindigkeit anzuzeigen und Fehler auszugeben.
 Möchte man das Konsolen Fenster nicht haben beim Programmablauf, kann man die EXE-Datei neu kompilieren mit pyinstaller. 
 Das geht wie folgt:
 * Repository herunterladen.
-* Dann im ".\Scripts" Ordner die CMD aufrufen und mit dem Befehl $"activate.bat" wird dann die Virtuelle Umgebung aktivirt.
+* Dann im ".\Scripts" Ordner die CMD aufrufen und mit dem Befehl $"activate.bat" wird dann die Virtuelle Umgebung aktiviert.
 * Danach muss man in den ".\Release" Ordner navigieren und hier auch wieder die CMD aufrufen.
 * Hier muss nun zunächst die "windkraftanlage.spec" bearbeitet werden.
 * In Zeile 38 muss man "console=True" in "console=False" ändern und die Datei danach abspeichern.
